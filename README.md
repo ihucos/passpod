@@ -26,7 +26,7 @@ The idea is to minimize the harm that a compromised password database may cause.
 A leaked *Passpod* database does not contain a direct link between a user name and its hashed password, this makes brute force attacks more expensive.
 Additionally when sufficient dummy hash entries are created, it is difficult to get the approximate number of registered users, or any other information.
 
-The design of *Passpod* also encourages the use of a separate Database for password storage,
+The design of *Passpod* also encourages the use of a separate database for password storage,
 this prevents SQL injections attacks targeting the application to compromise the hashed passwords.
 
 Often password hashing is implemented on the fly and bundled with application code,
