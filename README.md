@@ -1,7 +1,7 @@
 ### What is Passpod?
 
 *Passpod* is a library that hashes and saves passwords in a safe way.
-Although already usable it is still a prototype. Feedback very welcome.
+It is still a prototype, do not use in production. Feedback very welcome.
 
 **How currently web platforms save passwords**
 
