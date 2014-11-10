@@ -3,7 +3,7 @@
 Passpod is a library that hashes and saves passwords in a safe way.
 Altough already usable it is thought as a prototype to test a new way to save passwords Feedback wellcomme.
 
-How currently web platforms save passwords
+**How currently web platforms save passwords**
 
 | User           | Password Hash |
 | -------------- | ------------- |
@@ -12,7 +12,7 @@ How currently web platforms save passwords
 | iorfsjadk      | 77de68daec... |
 |      ...       |      ...      |
 
-How Passpod saves passwords:
+**How Passpod saves passwords**
 
 | Hash           |
 | -------------- |
