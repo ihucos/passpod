@@ -10,7 +10,7 @@ How currently web platforms save passwords
 | BieberLover93  | 356a192b79... |
 | EnterpriseUser | da4b9237ba... |
 | iorfsjadk      | 77de68daec... |
-       ...              ...
+|      ...       |      ...      |
 
 How Passpod saves passwords:
 
@@ -20,7 +20,7 @@ How Passpod saves passwords:
 | ac3478d69a3... |
 | c1dfd96eea8... |
 | 902ba3cda18... |
-       ...
+|      ...       |
 
 The idea is to minimize the harm that compromissed passwords hashes can cause.
 An leaked passpod database does not contain a direct link between a username and its hashed password, this makes brute force attacks more difficult.
