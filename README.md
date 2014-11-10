@@ -28,6 +28,7 @@ Additionally when sufficient dummy hash entries are created, it is difficult to 
 
 The design of *Passpod* also encourages the use of a separate Database for password storage,
 this prevents SQL injections attacks targeting the application to compromise the hashed passwords.
+
 Often password hashing is implemented on the fly and bundled with application code,
 *Passpod* hopes to offer an modularized, better reviewed, more secure alternative to this.
 
