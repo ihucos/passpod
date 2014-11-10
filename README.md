@@ -22,7 +22,7 @@ Although already usable it is still a prototype. Feedback very welcome.
 | 902ba3cda18... |
 |      ...       |
 
-The idea is to minimize the harm that a compromised password database can cause.
+The idea is to minimize the harm that a compromised password database may cause.
 A leaked *Passpod* database does not contain a direct link between a user name and its hashed password, this makes brute force attacks more expensive.
 When sufficient dummy hash entries are created, it is difficult to get the approximate number of registered users.
 
