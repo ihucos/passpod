@@ -46,7 +46,6 @@ ValueError: keys and values are not available in plaintext
 
 # FIXME: implement transactions, currently access to DictSubset is not atomar,
 # use SQL transactions
-# FIXME: of course we need to salt the hashes
 # TODO: support namespaces
 
 import bisect
@@ -89,7 +88,9 @@ class Db(object):
 
     def _hash(self, message):
         encoded_message = json.dumps([self._namespace, message])
-        return hashlib.sha512(encoded_message).digest()
+        # FIXME: I spend no thought on the actualy hashing, hashing with md5 is meant to be a placeholder
+        # the interesting part of the code is outside this method
+        return hashlib.md5(encoded_message).digest()
 
     def add(self, message):
         # print 'add', message
