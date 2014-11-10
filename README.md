@@ -44,3 +44,6 @@ True
 True
 >>> del passwords['user1']
 ```
+
+### Licence
+

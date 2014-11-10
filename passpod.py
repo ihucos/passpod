@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 #
-# Copyright (c) <year> <copyright holders>
+# Copyright (c) 2014 Irae Hueck Costa
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -44,9 +44,9 @@ Traceback (most recent call last):
 ValueError: keys and values are not available in plaintext
 '''
 
-# FIXME: transactions, currently access to DictSubset is not atomar,
+# FIXME: implement transactions, currently access to DictSubset is not atomar,
 # use SQL transactions
-# TODO: more namespaces
+# TODO: support namespaces
 
 import bisect
 import hashlib
