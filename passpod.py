@@ -46,6 +46,7 @@ ValueError: keys and values are not available in plaintext
 
 # FIXME: implement transactions, currently access to DictSubset is not atomar,
 # use SQL transactions
+# FIXME: of course we need to salt the hashes
 # TODO: support namespaces
 
 import bisect
