@@ -33,7 +33,7 @@ Passpod hopes to offer an modularized, better reviewed, more secure alternative.
 
 ### How To Use It
 
-Passpod offers a python library with a simple dictionary-like interface.
+Passpod offers a Python library with a simple dictionary-like interface.
 ```python
 >>> from passpod impor passpod
 >>> passwords = passpod.open('sqlite:///tmp/mydb') # passwords is a dictionary-like object
