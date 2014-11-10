@@ -1,7 +1,7 @@
 ### What is Passpod?
 
 Passpod is a library that hashes and saves passwords in a safe way.
-Altough already usable it is thought as a prototype to test a new way to save passwords Feedback wellcomme.
+Although already usable it is still a prototype. Feedback very welcome.
 
 **How currently web platforms save passwords**
 
@@ -22,17 +22,18 @@ Altough already usable it is thought as a prototype to test a new way to save pa
 | 902ba3cda18... |
 |      ...       |
 
-The idea is to minimize the harm that compromissed passwords hashes can cause.
-An leaked passpod database does not contain a direct link between a username and its hashed password, this makes brute force attacks more difficult.
-When sufficient dummy hash entries are created, its not possible to get an approximate number of registered users.
+The idea is to minimize the harm that a compromised password database can cause.
+A leaked Passpod database does not contain a direct link between a user name and its hashed password, this makes brute force attacks more expensive.
+When sufficient dummy hash entries are created, it is difficult to get the approximate number of registered users.
 
 The design of Passpod also encourages the use of a separate Database for password storage,
-preventing application SQL injections attaks to compromisse the hashed passwords.
+preventing SQL injections attacks targeting the application to compromise the hashed passwords.
 Often password hashing is implemented on the fly and bundled with application code,
-passpod hopes to offer an modularized, better reviewed, more secure alternative.
+Passpod hopes to offer an modularized, better reviewed, more secure alternative.
 
 ### How To Use It
 
+Passpod offers a python library with a simple dictionary-like interface.
 ```python
 >>> from passpod impor passpod
 >>> passwords = passpod.open('sqlite:///tmp/mydb') # passwords is a dictionary-like object
