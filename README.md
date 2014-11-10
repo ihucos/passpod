@@ -46,4 +46,4 @@ True
 ```
 
 ### Licence
-
+Passpod is licensed under the The MIT License (MIT)
