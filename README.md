@@ -1,6 +1,6 @@
 ### What is Passpod?
 
-Passpod is a library that hashes and saves passwords in a safe way.
+*Passpod* is a library that hashes and saves passwords in a safe way.
 Although already usable it is still a prototype. Feedback very welcome.
 
 **How currently web platforms save passwords**
@@ -12,7 +12,7 @@ Although already usable it is still a prototype. Feedback very welcome.
 | iorfsjadk      | 77de68daec... |
 |      ...       |      ...      |
 
-**How Passpod saves passwords**
+**How *Passpod* saves passwords**
 
 | Hash           |
 | -------------- |
@@ -23,17 +23,17 @@ Although already usable it is still a prototype. Feedback very welcome.
 |      ...       |
 
 The idea is to minimize the harm that a compromised password database can cause.
-A leaked Passpod database does not contain a direct link between a user name and its hashed password, this makes brute force attacks more expensive.
+A leaked *Passpod* database does not contain a direct link between a user name and its hashed password, this makes brute force attacks more expensive.
 When sufficient dummy hash entries are created, it is difficult to get the approximate number of registered users.
 
-The design of Passpod also encourages the use of a separate Database for password storage,
+The design of *Passpod* also encourages the use of a separate Database for password storage,
 preventing SQL injections attacks targeting the application to compromise the hashed passwords.
 Often password hashing is implemented on the fly and bundled with application code,
-Passpod hopes to offer an modularized, better reviewed, more secure alternative.
+*Passpod* hopes to offer an modularized, better reviewed, more secure alternative.
 
 ### How To Use It
 
-Passpod offers a Python library with a simple dictionary-like interface.
+*Passpod* offers a Python library with a simple dictionary-like interface.
 ```python
 >>> from passpod impor passpod
 >>> passwords = passpod.open('sqlite:///tmp/mydb') # passwords is a dictionary-like object
@@ -46,4 +46,4 @@ True
 ```
 
 ### Licence
-Passpod is licensed under the The MIT License (MIT)
+*Passpod* is licensed under the The MIT License (MIT)
