@@ -37,7 +37,7 @@ Often password hashing is implemented on the fly and bundled with application co
 *Passpod* offers a Python library with a simple dictionary-like interface.
 ```python
 >>> from passpod impor passpod
->>> passwords = passpod.open('sqlite:///tmp/mydb') # passwords is a dictionary-like object
+>>> passwords = passpod.open('sqlite:///tmp/mydb', namespace='RyHoJI...') # passwords is a dictionary-like object
 >>> psswords['user1'] = 'mypassword$*!'
 >>> 'user1' in passwords
 True
