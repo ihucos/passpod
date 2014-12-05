@@ -1,3 +1,6 @@
+
+## WARNING: After better validating the idea of this prototype I think it's not a good idea.
+
 ### What is Passpod?
 
 *Passpod* is a library that hashes and saves passwords in a safe way.
